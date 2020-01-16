@@ -18,10 +18,9 @@ def GetTimeMillis(): return int(round(time.time() * 1000))
 
 c_BAUD = 9600
 
-c_GetUrl = "http://eivind.hukkelberg.net:8080/getInstruction"
-c_PostUrl = "http://eivind.hukkelberg.net:8080/postResult"
+c_GetUrl = "[REDACTED]"  # This is the command get url
+c_PostUrl = "[REDACTED]" # This is the result post url
 
-#g_LineData = []
 
 
 g_IsRunnning = False
